@@ -12,10 +12,10 @@ class App extends React.Component{
 
   render(){
     console.log(this.state.people)
-    return this.state.people.map(people => {
-       <div>{people.name}</div>
+    this.state.people.map(people => {
       console.log(people.name)
     })
+    return <div></div>
   }
 }
 export default App
